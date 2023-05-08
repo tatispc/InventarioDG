@@ -1,0 +1,99 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body {
+background: rgb(145, 145, 145);
+color: rgb(255, 255, 255);
+}
+
+#contenedor {
+	width: 1200px;
+	margin: auto; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header{
+	height: 180px;
+	background: rgb(8, 13, 71); 
+}
+
+	
+	header h2 {
+		font-size: 40px; 
+		text-align: center; 
+		line-height: 70px;
+	}
+
+	
+	nav {
+		background: rgb(78, 106, 148);
+		height: 60px;
+	}
+
+	nav h1 {
+		color: rgb(255, 255, 255);
+		font-size: 20px;
+		line-height: 50px;
+	text-align: auto; 
+	}
+
+	#contenido {
+		width: 1200px; 
+		height: auto;
+		background: rgb(24, 105, 224);
+		margin-top: 5px;
+		margin-right: 5px;
+		text-align: center; 
+	}
+	
+		#contenido_1 {
+		width: 595px; 
+		height: 550px;
+		float:left-super;
+		font-size: 15px; 
+		background: rgb(24, 105, 224);
+		margin-top: 5px;
+		margin-right: 5px;
+	}
+
+
+		#contenido h1 {
+			font-size: 30px; 
+		text-align: center; 
+		line-height: 100px;
+				color: rgb(0,0,0);
+		}
+
+		#contenido_1 h3 {
+			font-size: 15px; 
+		text-align: center; 
+		line-height: 25px;
+		}
+
+		
+		aside {
+		width: 595px; 
+		height: 550px;
+		float: right;
+		font-size: 15px; 
+		background: rgb(24, 105, 224);
+		margin-top: 5px;
+		margin-right: 5px;
+	}
+
+		aside h3 {
+			font-size: 15px; 
+		text-align: center; 
+		line-height: 25px;
+		}
+
+footer {
+			font-size: 10px; 
+		text-align: center; 
+		line-height: 20px;
+		background: rgb(78, 106, 148);
+		clear: both;
+	}
